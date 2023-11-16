@@ -1,0 +1,12 @@
+.footerCont{
+    background-color: rgb(245, 245, 245);
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerCont div{
+    font-size: var(--fontSmall);
+}

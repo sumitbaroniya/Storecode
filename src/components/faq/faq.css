@@ -1,0 +1,30 @@
+.faqQuestion{
+    background-color: rgb(223, 221, 221);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.faqQuestion div{
+    font-size: var(--fontMedium);
+}
+
+.faqCont{
+    margin-bottom: 30px;
+}
+
+.faqAnswer{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: var(--fontSmall);
+    font-weight: 300;
+}
+
+.faqSection h2{
+   text-align: center;
+   font-size: var(--fontBig);
+}

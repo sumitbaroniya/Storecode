@@ -1,0 +1,37 @@
+.inputWrapper{
+    height: 88vh;
+    background-image: url('/public/bg-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqWrapper{
+    margin-top: 20px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.illustrationWrapper{
+    background-image: url('/public/influence-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+@media (max-width: 480px){
+    .inputWrapper{
+        height: 45vh;
+    }
+    .illustrationWrapper{
+        height: 45vh;
+    }
+}
+
+
+

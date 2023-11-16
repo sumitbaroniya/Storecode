@@ -1,0 +1,78 @@
+.influDotCont div img{
+    width: 50px;
+}
+
+.influDotCont{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    background-color: var(--white);
+    border: 2px dashed #949494;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.influDotCont div{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.influPointCont1{
+    border-right: 2px dashed #949494;
+}
+
+.influPointCont2{
+    border-right: 2px dashed #949494;
+}
+
+.influSection{
+    width: 90vw;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.influSection h2{
+    font-size: var(--fontBig);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.excCont{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.excCont div{
+    font-size: var(--fontBig);
+    margin-bottom: 10px;
+}
+
+.excCont button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 25vw;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.excCont button:hover {
+    background-color: #0056b3;
+  }
+
+.influDotCont div p{
+  font-size: var(--fontSmall);
+}
+
+@media (max-width: 480px){
+    .excCont button{
+        width: 80%;
+    }
+}
